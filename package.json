@@ -1,0 +1,34 @@
+{
+  "name": "unit-testing-olx",
+  "version": "1.0.0",
+  "description": "Unit testing",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test --timeout 5000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/renaldyrizki/unitTest-function-crawler.git"
+  },
+  "keywords": [
+    "unit",
+    "testing"
+  ],
+  "author": "Renaldy Rizki Maulana",
+  "license": "ISC",
+   "bugs": {
+    "url": "https://github.com/renaldyrizki/unitTest-function-crawler/issues"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "cheerio": "^1.0.0-rc.2",
+    "extend": "^3.0.2",
+    "mocha": "^5.2.0",
+    "mongodb": "^3.1.8",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2"
+  }
+}
